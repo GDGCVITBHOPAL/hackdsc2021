@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 body {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", Opensans, Roboto,
-    Helvetica, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: #fff;
   background-color: #121212;
@@ -35,8 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", Opensans, Roboto,
-    Helvetica, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h3,
@@ -402,8 +403,7 @@ p {
 }
 
 .page-header-alpha .navbar-topmenu .navbar-nav-menu .nav-item {
-  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", Opensans, Roboto,
-    Helvetica, -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -1051,8 +1051,8 @@ p {
 }
 
 .hackdsc-year {
-  font-size: 6rem;
-  font-weight: 700;
+  font-size: 5rem;
+  font-weight: 300;
 }
 .page-footer .footer-left,
 .page-footer .footer-right {
@@ -3081,7 +3081,7 @@ strong {
 }
 
 .condensed {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -3189,66 +3189,6 @@ h4 {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4);
     background-color: #1958a1;
-  }
-}
-
-#devfolio-apply-now {
-  background-color: #3770ff;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px;
-  font-weight: 600;
-  padding: 12px 20px;
-  text-align: center;
-  border: none;
-  outline: 0;
-}
-
-#devfolio-apply-now:not([disabled]) {
-  cursor: pointer;
-}
-
-#devfolio-apply-now:hover {
-  background-color: #2954bf !important;
-}
-
-#devfolio-apply-now.large {
-  font-size: 36px;
-  padding: 24px 44px;
-  border-radius: 15px;
-  margin: 10vh auto;
-}
-
-.devfolio-large {
-  height: 90px;
-}
-
-@media screen and (max-width: 768px) {
-  #devfolio-apply-now.large {
-    font-size: 24px;
-    padding: 16px 28px;
-    border-radius: 12px;
-    margin: 7vh auto;
-  }
-
-  .devfolio-large {
-    height: 60px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #devfolio-apply-now.large {
-    font-size: 20px;
-    padding: 12px 20px;
-    border-radius: 8px;
-    margin: 7vh auto;
-  }
-
-  .devfolio-large {
-    height: 40px;
   }
 }
 
