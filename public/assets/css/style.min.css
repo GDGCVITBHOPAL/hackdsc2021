@@ -620,7 +620,7 @@ p {
 .page-header-alpha .navbar-sidebar .nav-item.active {
   opacity: 1;
   /* background-color: #2b90f4; */
-  border-bottom: 5px solid #34A853;
+  border-bottom: 5px solid #34a853;
 }
 
 .page-header-alpha .navbar-sidebar .nav-item.active .icon {
@@ -1064,22 +1064,40 @@ p {
 }
 
 @media (max-width: 800px) {
-  .hackdsc-title{font-size:6rem;}
-  .hackdsc-title1{font-size:6rem;}
-  .hackdsc-year{font-size: 4rem;}
+  .hackdsc-title {
+    font-size: 6rem;
+  }
+  .hackdsc-title1 {
+    font-size: 6rem;
+  }
+  .hackdsc-year {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 600px) {
-  .hackdsc-title{font-size:4rem;}
-  .hackdsc-title1{font-size:4rem;}
-  .hackdsc-year{font-size: 2rem;}
-}  
+  .hackdsc-title {
+    font-size: 4rem;
+  }
+  .hackdsc-title1 {
+    font-size: 4rem;
+  }
+  .hackdsc-year {
+    font-size: 2rem;
+  }
+}
 
 @media (max-width: 400px) {
-  .hackdsc-title{font-size:3rem;}
-  .hackdsc-title1{font-size:3rem;}
-  .hackdsc-year{font-size: 2rem;}
-}  
+  .hackdsc-title {
+    font-size: 3rem;
+  }
+  .hackdsc-title1 {
+    font-size: 3rem;
+  }
+  .hackdsc-year {
+    font-size: 2rem;
+  }
+}
 
 .page-footer .footer-left,
 .page-footer .footer-right {
@@ -3136,86 +3154,52 @@ h4 {
   }
 }
 
-#preloader {
-  position: fixed;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
   left: 0;
   top: 0;
   z-index: 999;
   width: 100%;
   height: 100%;
-  overflow: visible;
-  background: #0e0c0d url(../img/favicon.svg) no-repeat center center;
-  background-size: 100px 100px;
-  text-align: center;
-  padding-top: calc(50vh + 60px);
+
+  background: #0e0c0d;
 }
 
-#preloader > div {
-  background-color: #49a8e0;
-  height: 50px;
-  width: 6px;
-  display: inline-block;
-  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
-  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+
+  animation: 1s bounce ease infinite;
 }
 
-#preloader .rect2 {
-  -webkit-animation-delay: -1.1s;
-  animation-delay: -1.1s;
+.blue {
+  background-color: #4285f5;
 }
 
-#preloader .rect3 {
-  -webkit-animation-delay: -1s;
-  animation-delay: -1s;
+.red {
+  background-color: #ea4436;
+  animation-delay: 0.25s;
 }
 
-#preloader .rect4 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
+.yellow {
+  background-color: #fbbd06;
+  animation-delay: 0.5s;
 }
 
-#preloader .rect5 {
-  -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
+.green {
+  background-color: #34a952;
+  animation-delay: 0.75s;
 }
 
-@-webkit-keyframes sk-stretchdelay {
-  0%,
-  40% {
-    -webkit-transform: scaleY(0.4);
-    background-color: #49a8e0;
-  }
-
-  20% {
-    -webkit-transform: scaleY(1);
-    background-color: #1958a1;
-  }
-
-  100% {
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-    background-color: #1958a1;
-  }
-}
-
-@keyframes sk-stretchdelay {
-  0%,
-  40% {
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-    background-color: #49a8e0;
-  }
-
-  20% {
-    transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    background-color: #1958a1;
-  }
-
-  100% {
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-    background-color: #1958a1;
+@keyframes bounce {
+  50% {
+    transform: translateY(25px);
   }
 }
 
@@ -3477,20 +3461,19 @@ a:hover {
   color: #fff;
 }
 
-#register{
-  background-color: #34A853;
-  font-family: 'Poppins';
+#register {
+  background-color: #34a853;
+  font-family: "Poppins";
   font-weight: 600;
   padding: 0.5rem;
   border-radius: 8px;
-  color:#fff;
+  color: #fff;
   font-size: 1.3rem;
-  border:3px solid #037fd5; 
+  border: 3px solid #037fd5;
 }
 
-
-@media  screen and (max-width:767px) {
-  #register{
-      font-size: 1.1rem;
+@media screen and (max-width: 767px) {
+  #register {
+    font-size: 1.1rem;
   }
 }
