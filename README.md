@@ -2,7 +2,7 @@
 
 ## The website for HackDSC2021 by DSC VIT Bhopal.
 
-> Live at http://www.hackdsc.tech/
+> Live at http://dscvitbhopal.github.io/hackdsc2021
 
 > Website is built on top of [https://github.com/CodeChefVIT/DevSoc21](https://github.com/CodeChefVIT/DevSoc21)
 
