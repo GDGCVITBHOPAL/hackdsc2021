@@ -12,7 +12,7 @@ body {
 }
 
 .text-blue {
-  color: #2b90f4;
+  color: #4285f5;
 }
 
 li,
@@ -76,7 +76,7 @@ p {
 }
 
 .img-avatar-alpha .shadow {
-  border: 1px solid #3a88f3;
+  border: 1px solid #4285f5;
   border-radius: 50%;
   padding: 40px;
   width: 380px;
@@ -89,14 +89,14 @@ p {
   position: relative;
   z-index: 1;
   transition: 0.1s;
-  border: 7px #3a88f3;
+  border: 7px #4285f5;
   border-radius: 50%;
   border-style: dashed solid solid dashed;
   width: 300px;
 }
 
 .img-avatar-alpha:hover img {
-  box-shadow: 0 0 40px #3a88f3;
+  box-shadow: 0 0 40px #4285f5;
   border-style: dashed solid solid dashed;
   border: 8px #fff;
 }
@@ -340,7 +340,7 @@ p {
   }
 
   .page-header-alpha .all-menu-wrapper .navbar-nav .nav-item a.hover {
-    color: #26a8e0;
+    color: #4285f5;
   }
 
   .navbar-sidebar {
@@ -513,7 +513,7 @@ p {
 }
 
 .page-header-alpha .navbar-mainmenu .nav-item a:hover {
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .page-header-alpha .navbar-mainmenu .nav-item {
@@ -619,8 +619,6 @@ p {
 
 .page-header-alpha .navbar-sidebar .nav-item.active {
   opacity: 1;
-  /* background-color: #2b90f4; */
-  border-bottom: 5px solid #34a853;
 }
 
 .page-header-alpha .navbar-sidebar .nav-item.active .icon {
@@ -632,19 +630,18 @@ p {
 }
 
 .page-header-alpha .navbar-sidebar .nav-item:hover:not(.active) {
-  /* border: 1px solid #2b90f4;
+  /* border: 1px solid #4285f5;
   background-color: #fff; */
   opacity: 1;
 }
 
 .page-header-alpha .navbar-sidebar .nav-item:hover:not(.active) .icon {
-  color: #2b90f4;
+  color: #4285f5;
 }
 
 .page-header-alpha .navbar-sidebar .nav-item:hover:not(.active) .txt {
   opacity: 1;
-  color: #2b90f4;
-  font-weight: 1000;
+  color: #4285f5;
 }
 
 @media (min-width: 768px) {
@@ -732,7 +729,7 @@ p {
   color: #fff;
   border-radius: 2px;
   opacity: 1;
-  /* background-color: #3a88f3; */
+  /* background-color: #4285f5; */
 }
 
 .menu-icon .material-icons {
@@ -976,6 +973,7 @@ p {
   background-position: center center;
   background-size: cover;
   transition: 0.7s;
+  filter: blur(1.5px);
 }
 
 .fp-viewing-about .page-bg-cover,
@@ -1044,7 +1042,14 @@ p {
 
 .hackdsc-wrapper {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+}
+
+.hackdsc-wrapper > img {
+  width: 46rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .hackdsc-title {
@@ -1413,7 +1418,7 @@ p {
 }
 
 .section.bg-bright .section-title h2 {
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .section h4,
@@ -1614,7 +1619,7 @@ p {
 .section-content .illustr-legend .legend hr {
   width: 50%;
   margin: 0.25rem 0;
-  border-top: 2px solid #26a8e0;
+  border-top: 2px solid #4285f5;
 }
 
 .section-content .illustr-legend .legend h4 {
@@ -1665,7 +1670,7 @@ p {
 .section-content hr {
   width: 50%;
   margin: 0.25rem 0;
-  border-top: 2px solid #26a8e0;
+  border-top: 2px solid #4285f5;
 }
 
 .section-content h4 {
@@ -1673,7 +1678,7 @@ p {
 }
 
 .section-content h4 strong {
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .section-content ul {
@@ -1697,7 +1702,7 @@ p {
 .section-content ul.list-primary > li:before {
   position: absolute;
   border-radius: 2rem;
-  background: #26a8e0;
+  background: #4285f5;
   width: 1rem;
   height: 1rem;
   left: 0;
@@ -1783,7 +1788,7 @@ p {
 .section-content h5.border-primary:before,
 .section-content p.border-primary:before {
   position: absolute;
-  border-top: 2px solid #26a8e0;
+  border-top: 2px solid #4285f5;
   width: 1em;
   height: 0;
   left: 0;
@@ -2273,7 +2278,7 @@ p {
 
 .footer.footer-page .footer-nav .navbar-nav a:hover {
   text-decoration: none;
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .footer.footer-page .footer-block .social-form {
@@ -2321,7 +2326,7 @@ p {
 
 .footer.footer-page .footer-block .socials-nav a:hover {
   text-decoration: none;
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .footer.footer-page .footer-block .socials-nav .icon {
@@ -2505,7 +2510,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #26a8e0 !important;
+  background-color: #4285f5 !important;
 }
 
 .bg-secondary {
@@ -2537,7 +2542,7 @@ p {
   content: "";
   height: 120px;
   width: 100%;
-  background: #26a8e0;
+  background: #4285f5;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2554,7 +2559,7 @@ p {
   content: "";
   height: 120px;
   width: 100%;
-  background: #26a8e0;
+  background: #4285f5;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2571,7 +2576,7 @@ p {
   content: "";
   height: 120px;
   width: 100%;
-  background: #26a8e0;
+  background: #4285f5;
   position: absolute;
   top: 0;
   left: 0;
@@ -2588,7 +2593,7 @@ p {
   content: "";
   height: 120px;
   width: 100%;
-  background: #26a8e0;
+  background: #4285f5;
   position: absolute;
   top: 0;
   left: 0;
@@ -3003,27 +3008,27 @@ p {
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(to right, #26a8e0, #ffc107);
+  background-image: linear-gradient(to right, #4285f5, #ffc107);
 }
 
 .bg-gradient-secondary {
-  background-image: linear-gradient(to right, #3f4b62, #26a8e0);
+  background-image: linear-gradient(to right, #3f4b62, #4285f5);
 }
 
 .bg-gradient-purple {
-  background-image: linear-gradient(to right, #037fd5, #8a3ed5);
+  background-image: linear-gradient(to right, #4285f5, #8a3ed5);
 }
 
 .bg-gradient-aqua {
-  background-image: linear-gradient(to right, #037fd5, #2ed662);
+  background-image: linear-gradient(to right, #4285f5, #2ed662);
 }
 
 .bg-gradient-blue {
-  background-image: linear-gradient(to right, #037fd5, #8a3ed5);
+  background-image: linear-gradient(to right, #4285f5, #8a3ed5);
 }
 
 .bg-gradient-bluered {
-  background-image: linear-gradient(to right, #037fd5, #dc3545);
+  background-image: linear-gradient(to right, #4285f5, #dc3545);
 }
 
 .bg-gradient-green {
@@ -3052,7 +3057,7 @@ p {
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 1;
-  color: #2892f4;
+  color: #4285f5;
 }
 
 @media (min-width: 768px) {
@@ -3212,12 +3217,12 @@ h4 {
   padding: 30px;
   margin: 20px;
   border-radius: 16px;
-  box-shadow: 8px 8px 0 #2b90f4;
+  box-shadow: 8px 8px 0 #4285f5;
 }
 
 .hoverimg:hover img {
-  border: 1px solid #2b90f4;
-  box-shadow: 8px 8px 20px #2b90f4;
+  border: 1px solid #4285f5;
+  box-shadow: 8px 8px 20px #4285f5;
 }
 
 @media screen and (max-width: 768px) {
@@ -3265,15 +3270,29 @@ h4 {
   }
 }
 
+/* #register {
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  border: 3px solid #4285f5;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+#register:hover {
+  background: rgba(0, 0, 0, 0.15);
+} */
+
 .card {
-  border-bottom: 1px solid #1b5a97;
   max-width: 60vw;
   width: 95% !important;
-  background-color: #fff;
-  color: #121212;
+  border: 3px solid #4285f5;
+  border-radius: 4px;
   margin: 20px;
-  box-shadow: 2px 5px 30px rgba(201, 200, 200, 0.42);
-  border-radius: 10px !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: white;
 }
 
 .card a {
@@ -3281,7 +3300,6 @@ h4 {
 }
 
 .card .card-header {
-  background-color: #fff !important;
   border: none;
 }
 
@@ -3295,7 +3313,7 @@ h4 {
   position: absolute;
   left: 20px;
   top: 20px;
-  color: #2892f4;
+  color: #4285f5;
 }
 
 .card-header span.minus {
@@ -3401,7 +3419,7 @@ a:hover {
 }
 
 .page-header-alpha .navbar-mainmenu .nav-item a:hover {
-  color: #26a8e0;
+  color: #4285f5;
 }
 
 .btn-social {
@@ -3414,30 +3432,29 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: #2892f4;
+  color: #4285f5;
   font-weight: 500;
   font-size: 1.2rem;
 }
 
 .clock .count {
   display: block;
-  background-color: #3a88f3;
   color: #fff;
   min-width: 100px;
   padding: 20px;
-  margin: 20px;
   font-weight: 800;
-  font-size: 40px;
-  border-radius: 10px;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  margin: 0rem 1rem;
 }
 
 @media screen and (max-height: 800px), (max-width: 768px) {
   .clock .count {
     min-width: 70px;
     padding: 10px;
-    margin: 10px;
-    font-weight: 700;
-    font-size: 32px;
+    margin: 0rem 1rem;
+    font-weight: 800;
+    font-size: 3rem;
   }
 }
 
@@ -3451,7 +3468,7 @@ a:hover {
 .fa-instagram:hover,
 .fa-linkedin:hover,
 .fa-twitter:hover {
-  color: #037fd5;
+  color: #4285f5;
 }
 
 .icon.fa-facebook:hover,
@@ -3462,14 +3479,18 @@ a:hover {
 }
 
 #register {
-  background-color: #34a853;
   font-family: "Poppins";
   font-weight: 600;
-  padding: 0.5rem;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 1.3rem;
-  border: 3px solid #037fd5;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  border: 3px solid #4285f5;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+#register:hover {
+  background: rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (max-width: 767px) {
