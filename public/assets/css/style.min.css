@@ -619,8 +619,6 @@ p {
 
 .page-header-alpha .navbar-sidebar .nav-item.active {
   opacity: 1;
-  /* background-color: #4285f5; */
-  border-bottom: 5px solid #34a853;
 }
 
 .page-header-alpha .navbar-sidebar .nav-item.active .icon {
@@ -644,7 +642,6 @@ p {
 .page-header-alpha .navbar-sidebar .nav-item:hover:not(.active) .txt {
   opacity: 1;
   color: #4285f5;
-  font-weight: 1000;
 }
 
 @media (min-width: 768px) {
@@ -3273,15 +3270,29 @@ h4 {
   }
 }
 
+/* #register {
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  border: 3px solid #4285f5;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+#register:hover {
+  background: rgba(0, 0, 0, 0.15);
+} */
+
 .card {
-  border-bottom: 1px solid #1b5a97;
   max-width: 60vw;
   width: 95% !important;
-  background-color: #fff;
-  color: #121212;
+  border: 3px solid #4285f5;
+  border-radius: 4px;
   margin: 20px;
-  box-shadow: 2px 5px 30px rgba(201, 200, 200, 0.42);
-  border-radius: 10px !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: white;
 }
 
 .card a {
@@ -3289,7 +3300,6 @@ h4 {
 }
 
 .card .card-header {
-  background-color: #fff !important;
   border: none;
 }
 
