@@ -82,6 +82,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/css/timeline.scss" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -166,13 +167,13 @@
             </a>
             <a href="#timeline">
               <li class="nav-item" data-menuanchor="timeline">
-                <i class="icon fas fa-info-circle"></i>
+                <i class="icon fa fa-hourglass-half"></i>
                 <span class="txt">Timeline</span>
               </li>
             </a>
             <a href="#domains">
               <li class="nav-item" data-menuanchor="domains">
-                <i class="icon fas fa-info-circle"></i>
+                <i class="icon fas fa-cogs"></i>
                 <span class="txt">Domains</span>
               </li>
             </a>
@@ -234,6 +235,16 @@
             <div class="col-12 justify-content-center title-desc">
               <a href="#" target="_blank">
                 <button id="register">Registration Starting Soon</button>
+              </a>
+              <a href="https://discord.gg/R3fpety" target="_blank">
+                <button id="register">
+                  <img
+                    height="32px"
+                    src="./assets/img/discord-logo.png"
+                    alt="discord"
+                  />
+                  Join our discord
+                </button>
               </a>
             </div>
             <div class="col-12 title-desc mt-5">
@@ -312,70 +323,16 @@
                   justify-content: center;
                 "
               >
-              24th April to 25th April, 2021
-              <br>
+                24th April to 25th April, 2021
+                <br />
                 Online
               </p>
-              <!-- <h3
-                class="display-3 pt-4 pb-1"
-                style="
-                  color: #4285f5;
-                  display: -webkit-flex;
-                  -webkit-justify-content: center;
-                  display: flex;
-                  justify-content: center;
-                "
-              >
-                When?
-              </h3>
-              <p
-                style="
-                  display: -webkit-flex;
-                  -webkit-justify-content: center;
-                  display: flex;
-                  justify-content: center;
-                "
-              >
-                24th April to 25th April, 2021
-              </p> -->
             </div>
           </div>
         </div>
       </div>
 
-      <!-- <div class="section section-description fp-auto-height-responsive sec3 fp-section anim" data-section="speakers"
-            data-anchor="speakers">
-            <div class="section-wrapper center-vh dir-col anim">
-                <div class="section-title text-center">
-                </div>
-                <div class="anim-2">
-                    <h2 class="display-1 display-title text-center">Speakers</h2>
-                </div>
-                <br>
-                <div class="section-content anim text-center">
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-12 col-md-12 center-vh">
-                            <div class="section-content anim">
-                                <div class="images text-center">
-                                    <div class="img-avatar-alpha">
-                                        <div class="shadow">
-                                            <img class="img-fluid"
-                                                src="https://d33wubrfki0l68.cloudfront.net/1666647878f875fb6b4799b858f7678ffc673d18/20aad/img/speakers/ravipratapsingh.svg"
-                                                alt="Ravi Pratap Singh">
-                                        </div>
-                                        <div class="legend text-center mt-3">
-                                            <h3>Ravi Pratap Singh</h3>
-                                            <h4>Co-Founder @ Learnnovators</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div
+      <div
         class="section section-description fp-auto-height-responsive sec2 fp-section anim"
         data-section="timeline"
         data-anchor="timeline"
@@ -384,12 +341,82 @@
           <div class="section-title text-center">
             <div class="anim-2">
               <h2 class="display-1 display-title text-center">Timeline</h2>
+              <div class="container">
+                <div class="timeline">
+                  <div class="timeline-container primary">
+                    <div class="timeline-icon">
+                      <i class="far fa-grin-wink"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">15th April at 10AM</span>
+                      </h4>
+                      <p style="font-size: 30px">Registrations Starts</p>
+                    </div>
+                  </div>
+                  <div class="timeline-container danger">
+                    <div class="timeline-icon">
+                      <i class="far fa-grin-hearts"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">30th April at 12 AM </span>
+                      </h4>
+                      <p style="font-size: 30px">Registrations Ends</p>
+                    </div>
+                  </div>
+                  <div class="timeline-container success">
+                    <div class="timeline-icon">
+                      <i class="far fa-grin-tears"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">1st May at 10AM</span>
+                      </h4>
+                      <p style="font-size: 30px">Inauguration</p>
+                    </div>
+                  </div>
+                  <div class="timeline-container warning">
+                    <div class="timeline-icon">
+                      <i class="far fa-grimace"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">1st May at 11AM</span>
+                      </h4>
+                      <p style="font-size: 30px">Hackathon Begins</p>
+                    </div>
+                  </div>
+                  <div class="timeline-container">
+                    <div class="timeline-icon">
+                      <i class="far fa-grin-beam-sweat"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">3rd May at 10AM</span>
+                      </h4>
+                      <p style="font-size: 30px">Submission Dealine</p>
+                    </div>
+                  </div>
+                  <div class="timeline-container info">
+                    <div class="timeline-icon">
+                      <i class="far fa-grin"></i>
+                    </div>
+                    <div class="timeline-body">
+                      <h4 class="timeline-title">
+                        <span class="badge">5th May at 10Am</span>
+                      </h4>
+                      <p style="font-size: 30px">Felicitation Ceremony</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-     </div>
-       <!-- Domain  -->
-       <div
+      </div>
+      <!-- Domain  -->
+      <div
         class="section section-faq fp-auto-height-responsive sec5 fp-section anim"
         data-section="domains"
         data-anchor="domains"
@@ -399,221 +426,89 @@
             <h2 class="display-1 display-title text-center">Domains</h2>
           </div>
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="faq-scroll scrollable">
-                <div class="accordion" id="domain-accordian">
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingOne"
-                      data-toggle="collapse"
-                      data-target="#collapseOne"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Education
-                      </p>
-                    </div>
-                    <div
-                      id="collapseOne"
-                      class="collapse"
-                      aria-labelledby="headingOne"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          Technology that adds value for educators by making lessons easier and interesting classes for students.
-                        </p>
-                      </div>
-                    </div>
+            <div class="row">
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Education</div>
+                  <div class="domain-body">
+                    Technology that adds value for educators by making lessons
+                    easier and interesting classes for students.
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingTwo"
-                      data-toggle="collapse"
-                      data-target="#collapseTwo"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Fintech
-                      </p>
-                    </div>
-                    <div
-                      id="collapseTwo"
-                      class="collapse"
-                      aria-labelledby="headingTwo"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          As Blockchain and Cryptocurrency are already in limelight, 
-                          let's dig deeper into management solutions and cash flow systems.
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Fintech</div>
+                  <div class="domain-body">
+                    As Blockchain and Cryptocurrency are already in limelight,
+                    let's dig deeper into management solutions and clash flow
+                    systems
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingThree"
-                      data-toggle="collapse"
-                      data-target="#collapseThree"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Health
-                      </p>
-                    </div>
-                    <div
-                      id="collapseThree"
-                      class="collapse"
-                      aria-labelledby="headingThree"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          With the ongoing pandemic, we have realized that we are still far from an effective quality of healthcare system, 
-                          so we await for innovation that saves lives and time.
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Health</div>
+                  <div class="domain-body">
+                    Technology that adds value for educators by making lessons
+                    easier and interesting classes for students.
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingFour"
-                      data-toggle="collapse"
-                      data-target="#collapseFour"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Security
-                      </p>
-                    </div>
-                    <div
-                      id="collapseFour"
-                      class="collapse"
-                      aria-labelledby="headingFour"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          We all agree with respecting privacy and protecting against data leakages. But let's face it, the online world poses big challenges in the field of security, 
-                          so for modern problems, we need modern solutions. 
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Security</div>
+                  <div class="domain-body">
+                    We all agree with respecting privacy and protecting against
+                    data leakages. But let's face it, the online world poses big
+                    challenges in the field of security, so for modern problems,
+                    we need modern solutions.
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingFive"
-                      data-toggle="collapse"
-                      data-target="#collapseFive"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Women Impowerment
-                      </p>
-                    </div>
-                    <div
-                      id="collapseFive"
-                      class="collapse"
-                      aria-labelledby="headingFive"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          Women in Tech! Taking these words into action, we implore all the females to bring out their best in HackDSC 2021, 
-                          to show girl power and reach greater heights with confidence and skill. 
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Women Empowerment</div>
+                  <div class="domain-body">
+                    Women in Tech! Taking these words into action, we implore
+                    all the females to bring out their best in HackDSC 2021, to
+                    show girl power and reach greater heights with confidence
+                    and skill.
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingSix"
-                      data-toggle="collapse"
-                      data-target="#collapseSix"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Climate Change
-                      </p>
-                    </div>
-                    <div
-                      id="collapseSix"
-                      class="collapse"
-                      aria-labelledby="headingSix"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          As it is obvious of how the world is facing harsh environmental changes, so if we have a chance to improve,
-                           we should step forward with technology in hand. 
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Climate Change</div>
+                  <div class="domain-body">
+                    As it is obvious of how the world is facing harsh
+                    environmental changes, so if we have a chance to improve, we
+                    should step forward with technology in hand.
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingSeven"
-                      data-toggle="collapse"
-                      data-target="#collapseSeven"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                        Open Innovation
-                      </p>
-                    </div>
-                    <div
-                      id="collapseSeven"
-                      class="collapse"
-                      aria-labelledby="headingSeven"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          Let's go wild as we discover uniqueness with technology, from music to shopping to travelling to AR/VR. Let's explore! 
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Open Innovation</div>
+                  <div class="domain-body">
+                    Let's go wild as we discover uniqueness with technology,
+                    from music to shopping to travelling to AR/VR. Let's
+                    explore!
                   </div>
-                  <div class="card">
-                    <div
-                      class="card-header collapsed"
-                      id="headingEight"
-                      data-toggle="collapse"
-                      data-target="#collapseEight"
-                    >
-                      <p>
-                        <span class="plus"><i class="fa fa-plus"></i></span>
-                        <span class="minus"><i class="fa fa-minus"></i></span>
-                       Agriculture
-                      </p>
-                    </div>
-                    <div
-                      id="collapseEight"
-                      class="collapse"
-                      aria-labelledby="headingEight"
-                      data-parent="#domain-accordian"
-                    >
-                      <div class="card-body">
-                        <p>
-                          Computerizing agriculture in order to grow worldwide practice, let's use HackDSC to develop on it.
-                        </p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4 domain-inner">
+                <div class="domain-card">
+                  <div class="domain-header">Agriculture</div>
+                  <div class="domain-body">
+                    Computerizing agriculture in order to grow worldwide
+                    practice, let's use HackDSC to develop on it.
                   </div>
                 </div>
               </div>
@@ -622,7 +517,7 @@
         </div>
       </div>
 
-       <!-- Domain -->
+      <!-- Domain -->
       <div
         class="section section-description fp-auto-height-responsive sec4 fp-section anim fp-completely"
         data-section="sponsors"
@@ -692,9 +587,7 @@
                       data-parent="#faq-accordian"
                     >
                       <div class="card-body">
-                        <p>
-                          The hackathon is free of cost.
-                        </p>
+                        <p>The hackathon is free of cost.</p>
                       </div>
                     </div>
                   </div>
@@ -719,9 +612,9 @@
                     >
                       <div class="card-body">
                         <p>
-                          From a team, one participant should register, and others should join 
-                          the team. In case of redundant registrations, one will be chosen 
-                          randomly.
+                          From a team, one participant should register, and
+                          others should join the team. In case of redundant
+                          registrations, one will be chosen randomly.
                         </p>
                       </div>
                     </div>
@@ -747,7 +640,8 @@
                     >
                       <div class="card-body">
                         <p>
-                          The event is open to participants from all universities.
+                          The event is open to participants from all
+                          universities.
                         </p>
                       </div>
                     </div>
@@ -799,8 +693,8 @@
                     >
                       <div class="card-body">
                         <p>
-                          Yes, you can participate alone. 
-                          The team size varies from 1 to 4 people at most.
+                          Yes, you can participate alone. The team size varies
+                          from 1 to 4 people at most.
                         </p>
                       </div>
                     </div>
@@ -826,8 +720,12 @@
                     >
                       <div class="card-body">
                         <p>
-                          Projects from the categories: Education, Fintech, Health, Security, Women Empowerment, Climate Change, Open Innovation, Agriculture are welcome. 
-                          <br>The projects can be either Web, Android, ML, or Blockchain-based. Any relevant project will be considered.
+                          Projects from the categories: Education, Fintech,
+                          Health, Security, Women Empowerment, Climate Change,
+                          Open Innovation, Agriculture are welcome.
+                          <br />The projects can be either Web, Android, ML, or
+                          Blockchain-based. Any relevant project will be
+                          considered.
                         </p>
                       </div>
                     </div>
@@ -853,7 +751,8 @@
                     >
                       <div class="card-body">
                         <p>
-                          We will be active on our discord server, and our website will be updated regularly as well.
+                          We will be active on our discord server, and our
+                          website will be updated regularly as well.
                         </p>
                       </div>
                     </div>
@@ -868,7 +767,8 @@
                       <p>
                         <span class="plus"><i class="fa fa-plus"></i></span>
                         <span class="minus"><i class="fa fa-minus"></i></span>
-                        Do I need to have specific qualifications to be a part of the hack?
+                        Do I need to have specific qualifications to be a part
+                        of the hack?
                       </p>
                     </div>
                     <div
@@ -879,7 +779,8 @@
                     >
                       <div class="card-body">
                         <p>
-                          There are no specific qualifications required. Anyone with a basic programming background can apply.
+                          There are no specific qualifications required. Anyone
+                          with a basic programming background can apply.
                         </p>
                       </div>
                     </div>
@@ -894,7 +795,8 @@
                       <p>
                         <span class="plus"><i class="fa fa-plus"></i></span>
                         <span class="minus"><i class="fa fa-minus"></i></span>
-                        Can I start working on my hack/submission before the event?
+                        Can I start working on my hack/submission before the
+                        event?
                       </p>
                     </div>
                     <div
@@ -905,7 +807,8 @@
                     >
                       <div class="card-body">
                         <p>
-                          No, the submission must be completed in the given 48 hours.
+                          No, the submission must be completed in the given 48
+                          hours.
                         </p>
                       </div>
                     </div>
@@ -931,8 +834,9 @@
                     >
                       <div class="card-body">
                         <p>
-                          You can submit a complete presentation explaining the project along with the objectives and working. 
-                          Along with it, do submit the code up to the last commit.
+                          You can submit a complete presentation explaining the
+                          project along with the objectives and working. Along
+                          with it, do submit the code up to the last commit.
                         </p>
                       </div>
                     </div>
