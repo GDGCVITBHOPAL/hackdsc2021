@@ -1049,8 +1049,9 @@ p {
 .hackdsc-wrapper > img {
   width: 46rem;
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
+
 
 .hackdsc-title {
   font-size: 8rem;
@@ -3497,4 +3498,51 @@ a:hover {
   #register {
     font-size: 1.1rem;
   }
+}
+
+@media screen and (max-width: 567px) {
+  .hackdsc-wrapper > img {
+    width: 28rem;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+  }   
+}
+
+@media screen and (max-width: 400px) {
+  .hackdsc-wrapper > img {
+    width: 22rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  } 
+  
+  #register{
+    padding: 1rem 1rem;
+    font-size:1rem;
+  }
+}
+
+@media screen and (max-width: 450px){
+.clock > .day-count > .count {
+    min-width: 70px;
+    padding: 10px;
+    margin: 0rem 0.5rem;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.clock > .hour-count > .count {
+  min-width: 70px;
+  padding: 10px;
+  margin: 0rem 0.5rem;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.clock > .min-count > .count {
+  min-width: 70px;
+  padding: 10px;
+  margin: 0rem 0.5rem;
+  font-weight: 800;
+  font-size: 2rem;
+}
 }
