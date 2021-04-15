@@ -979,28 +979,28 @@ p {
 .fp-viewing-about .page-bg-cover,
 .fp-viewing-home .page-bg-cover,
 .fp-viewing-speakers .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-sponsors .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-faqs .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-contact .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-ds .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 @media screen and (max-width: 600px) {
   .page-bg-cover {
-    background-image: url(../img/bg.png), url(../img/bg-grid.png) !important;
+    background-image: url(../img/bg.png) !important;
   }
 }
 
