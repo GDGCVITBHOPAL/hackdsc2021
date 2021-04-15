@@ -3586,5 +3586,6 @@ a:hover {
 }
 
 #download-brochure:hover {
-  background-image: linear-gradient(to right, #ea4335, #fbbc05, #34a853);
+  background-image: #4285f5;
+  color: #4185f5;
 }
