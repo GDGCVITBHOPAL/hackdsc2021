@@ -979,28 +979,28 @@ p {
 .fp-viewing-about .page-bg-cover,
 .fp-viewing-home .page-bg-cover,
 .fp-viewing-speakers .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-sponsors .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-faqs .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-contact .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 .fp-viewing-ds .page-bg-cover {
-  background-image: url(../img/bg.png), url(../img/bg-grid.png);
+  background-image: url(../img/bg.png);
 }
 
 @media screen and (max-width: 600px) {
   .page-bg-cover {
-    background-image: url(../img/bg.png), url(../img/bg-grid.png) !important;
+    background-image: url(../img/bg.png) !important;
   }
 }
 
@@ -3586,5 +3586,11 @@ a:hover {
 }
 
 #download-brochure:hover {
-  background-image: linear-gradient(to right, #ea4335, #fbbc05, #34a853);
+  background-image: #4285f5;
+  color: #4185f5;
+}
+
+h2.sponsor-head {
+  display: flex !important;
+  justify-content: center !important;
 }
