@@ -3589,3 +3589,8 @@ a:hover {
   background-image: #4285f5;
   color: #4185f5;
 }
+
+h2.sponsor-head {
+  display: flex !important;
+  justify-content: center !important;
+}
