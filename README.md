@@ -11,12 +11,6 @@
 - A nice intuitive UI based on fullpage.js and Bootstrap.
 - Responsive for best experience on every possible screen size.
 
-## Screenshots
-
-<img src="https://user-images.githubusercontent.com/24913006/99283067-821c6a00-285a-11eb-8c8d-651144b680a6.png" alt="Project Screenshots">
-<img src="https://user-images.githubusercontent.com/24913006/99283208-b1cb7200-285a-11eb-963d-f2352561cc3b.png" alt="Project Screenshots">
-<img src="https://user-images.githubusercontent.com/24913006/99283355-e8a18800-285a-11eb-9bbb-c8a427aeafc5.png" alt="Project Screenshots">
-
 ## Instructions to run
 
 ```
